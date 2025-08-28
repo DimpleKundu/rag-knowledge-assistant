@@ -70,20 +70,7 @@ Legal/financial document search
 
 Domain-specific chatbots
 
-📌 Status
-📍 Work-in-progress: Repository created to showcase project idea. Implementation in progress.
-
-🏆 Author
-👩‍💻 Dimple Kundu
-
-LinkedIn: linkedin.com/in/dimple-kundu
-
-GitHub: github.com/DimpleKundu
 
 
 
 
-
-
-
-Ask ChatGPT
