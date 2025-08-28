@@ -23,3 +23,67 @@ Built with **LangChain, Pinecone, OpenAI GPT-4, and Flask**.
 ---
 
 ## 📂 Project Structure
+rag-knowledge-assistant/
+├── README.md
+├── app.py # Flask API (to be added)
+├── ingest.py # Document loader & embeddings (to be added)
+├── requirements.txt
+├── docs/ # Sample documents
+└── .env.example # Environment variables
+
+yaml
+Copy code
+
+---
+
+## ⚡ Quick Start (Planned)
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/rag-knowledge-assistant.git
+   cd rag-knowledge-assistant
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Add your OpenAI API Key in .env.
+
+Ingest documents and start the server:
+
+bash
+Copy code
+python ingest.py
+python app.py
+Ask a question:
+
+bash
+Copy code
+curl -X POST http://127.0.0.1:5000/ask \
+  -H "Content-Type: application/json" \
+  -d '{"question":"What does document X say about Y?"}'
+🎯 Use Cases
+Research assistants for academic or enterprise knowledge bases
+
+Internal company documentation Q&A
+
+Legal/financial document search
+
+Domain-specific chatbots
+
+📌 Status
+📍 Work-in-progress: Repository created to showcase project idea. Implementation in progress.
+
+🏆 Author
+👩‍💻 Dimple Kundu
+
+LinkedIn: linkedin.com/in/dimple-kundu
+
+GitHub: github.com/DimpleKundu
+
+
+
+
+
+
+
+Ask ChatGPT
